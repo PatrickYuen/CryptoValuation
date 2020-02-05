@@ -2,7 +2,7 @@
 
 A Quick Bokeh Dashboard to chart live prices for different coins. Interactive chart with SMA/EMA overlays.
 
-######Exchanges:
+**Exchanges:**
 * Coinbase Pro: https://pro.coinbase.com/
 
 ### Example 
