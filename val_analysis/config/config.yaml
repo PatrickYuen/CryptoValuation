@@ -1,0 +1,8 @@
+sub_socket_connection: tcp://*:5555
+pub_socket_connection: tcp://*:5556
+handlers:
+  coinbase_pro_book: CoinbaseProBookTransformer
+observers:
+  - OrderBookObserver
+  - MovingAverageCrossObserver
+  - MACDObserver

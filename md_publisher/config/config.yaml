@@ -1,0 +1,10 @@
+coinbase_pro:
+  publisher: CoinbaseProMDPublisher
+  socket_connection: tcp://127.0.0.1:5555
+  websocket_endpoint: wss://ws-feed.pro.coinbase.com
+  currency_pairs:
+    - BTC-USD
+  channels:
+    - level2
+    - heartbeat
+  channel_topic: coinbase_pro_book
